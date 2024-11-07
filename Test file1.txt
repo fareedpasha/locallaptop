@@ -1,1 +1,9 @@
 This is First test file to check if it gets uploaded to remote git repository from local laptop from D:/Fareed/Documents/6 Git Repository 
+
+Addition:
+Now created a new text file called Test file1.txt and i tried directly to push to remote git repository it failed.
+You cannot add files directly. First on your local laptop add the file to staging area, commit the file to local git and then push the file from local to remote repository.
+
+git add '.\Test file1.txt'
+git commit -m "second commit"
+git push -u origin main
